@@ -81,7 +81,7 @@ img { display: block; max-width: 100%; height: auto; }
 .doc p, .doc li { margin: 0 0 12px; }
 .doc ul { padding-left: 20px; }
 .doc a { text-decoration: underline; text-decoration-color: var(--hairline); text-underline-offset: 3px; }
-.toc { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(8, auto); grid-auto-flow: column; gap: 2px 24px; padding: 18px 0; margin: 0 0 8px; border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); font-size: 15px; }
+.toc { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(4, auto); grid-auto-flow: column; gap: 2px 24px; padding: 18px 0; margin: 0 0 8px; border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); font-size: 15px; }
 .doc .toc a { color: var(--secondary); padding: 4px 0; text-decoration: none; }
 .toc a:hover { color: var(--text); }
 .doc ol { padding-left: 22px; }
